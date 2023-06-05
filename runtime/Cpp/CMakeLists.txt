@@ -3,6 +3,7 @@ cmake_minimum_required (VERSION 3.15)
 # 3.14 needed because of FetchContent
 # 3.15 needed to avid spew of warnings related to overriding cl command line flags
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 set(CMAKE_MACOSX_RPATH OFF)
 
 enable_testing()
